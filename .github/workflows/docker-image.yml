@@ -27,7 +27,7 @@ jobs:
         uses: docker/build-push-action@v4
         with:
           context: .
-          file: apache/Dockerfile
+          file: Dockerfile
           push: true
           tags: wtmarketing/mautic:6.0.0
           # Se quiser manter também uma tag "latest", descomente a linha abaixo:
