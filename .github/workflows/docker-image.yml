@@ -3,7 +3,7 @@ name: Build & Publish Mautic 6.0.0
 on:
   push:
     branches:
-      - main    # ou o branch principal que você usa
+      - mautic6    # ou o branch principal que você usa
 
 jobs:
   build-and-push:
